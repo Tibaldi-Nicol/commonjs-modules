@@ -18,6 +18,9 @@ const creaHobby = require('./hobbies.js');
 function creaPersona() {
 
     return{
+
+        fullName: creaNome('giovanni,', 'rossi'), //chiamo la funzione creaNome e gli passo i parametri
+        hobbies: creaHobby('sport', 'musica', 'lettura') //chiamo la funzione creaHobby e gli passo i parametri
         
     }
 
