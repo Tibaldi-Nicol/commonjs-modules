@@ -21,8 +21,13 @@ function creaPersona() {
 
         fullName: creaNome('giovanni,', 'rossi'), //chiamo la funzione creaNome e gli passo i parametri
         hobbies: creaHobby('sport', 'musica', 'lettura') //chiamo la funzione creaHobby e gli passo i parametri
+
         
     }
 
 
 }
+
+//esporto la funzione in modo che possa essere utilizzata in altri file
+module.exports = creaPersona; //esporto la funzione
+
