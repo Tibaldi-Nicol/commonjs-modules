@@ -8,3 +8,7 @@ function creaHobby( hobbyOne, hobbyTwo, hobbyThree){
         hobbyThree
     ]
 }
+
+//questa serve per esportare la funzione in modo che possa essere utilizzata in altri file
+//per esempio in people.js  
+module.exports = creaHobby;
