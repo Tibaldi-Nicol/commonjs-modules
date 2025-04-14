@@ -3,8 +3,8 @@
 
 function creaNome(firstName, lastName){
     return{
-        firstName: Mario,
-        lastName: Rossi
+        firstName: firstName,
+        lastName: lastName
     }
 }
 //questa serve per esportare la funzione in modo che possa essere utilizzata in altri file
